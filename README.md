@@ -1,4 +1,4 @@
-# opinion-dissemination
+# opinion-dissemination (updated for neural networks project)
 Description: Component of the Nonlinear and Complex System Research Group's 'Information Cascades' project focusing on opinion mining (i.e., assigning opinion values to tweets and users). All sensitive information has been removed from the new version of this repository.
 
 ## Summary
