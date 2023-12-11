@@ -22,6 +22,12 @@ def view_hist(df, x_axis, color, nbins = 300):
 
 
 # display distribution of scored tweets from related dataset
-df_related = pd.read_csv("L2reg_scored_SurgeAItweets.csv")
+# df_related = pd.read_csv("L2reg_scored_SurgeAItweets.csv")
 
-view_hist(df_related,"score","Category")
+# view_hist(df_related,"score","Category")
+
+
+# display distribution of scored tweets from unrelated dataset
+df_related = pd.read_csv("L2reg_scored_COVIDtweets.csv")
+
+view_hist(df_related,"score",None)
